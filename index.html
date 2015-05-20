@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+   <script src="phonegap.js" type="text/javascript"></script> 
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" > 
+  <div data-role="header">
+    <h1 align="center">Inicio</h1>
+  </div>  
+ 
+  <div data-role="main" class="ui-content">
+  <div align="center">
+   <a href="#juego" id="btnjugar" class="ui-btn ui-icon-arrow-r ui-btn-icon-right ui-shadow-icon ui-btn-corner-all ui-btn-inline">Comenzar</a>
+   </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>@Anahi Ramos Martinez</h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+
+ <!-- Juego -->
+ <div data-role="page" id="juego" >   
+ 
+  <div data-role="main" class="ui-content">
+    <div id="uno" style="float:left; width:50%; background-color:#96C; height:200px">
+    </div>  
+    <div id="dos" style="float:left; width:50%; background-color:#F39; height:200px">
+    </div>
+    <div id="tres" style="float:left; width:50%; background-color:#FCF; height:200px">
+    </div>  
+    <div id="cuatro" style="float:left; width:50%; background-color:#93C; height:200px">
+    </div>
+  </div>
+
+  <div data-role="footer">
+   <div id="numeros">
+    Pulso:
+   </div>
+   <div>
+    
+   </div>
+  </div>
+ </div>  
+ <!-- Juego -->
+
+ </body>
+</html> 
